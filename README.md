@@ -24,3 +24,9 @@
 - git checkout -b feature_a # 在測試分支進行開發feature_a。在 checkout 命令給定 -b 參數執行，可以同時建立分支和切換。
 ```
 
+
+## feature_a合併到develop分支
+```bash
+- git checkout feature_a # 切換feature_a分支
+- git rebase develop # 將feature_a分支合併到develop
+```
